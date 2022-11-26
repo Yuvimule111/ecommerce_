@@ -1,0 +1,44 @@
+7/10/2022
+
+1. changing the structure
+
+server.js -----> router (route to correct function) -----> controllers(request will hit and return) ----> service(business logic) ----> Database
+
+
+
+2. primary key
+
+uniquely define a specific row in table.
+only one primary key can be there
+
+3. foriegn key
+
+primary key of another table.
+used for joining two or more tables.
+
+
+4. 
+oneToOne --> Person <-----> Aadhar
+oneToMany ---> father <----> children
+ManyToMany ----> Teacher <----> Students
+
+
+
+route -----> controllers(validations) ----> 
+
+
+
+user -- credentials --> frontend --------> backend. 
+backend --- Auth Token ---> frontend(auth 
+token as cookie) --- profile ---> user
+
+user -- cart --> frontend --- auth token ---> backend
+
+
+
+
+
+route -- validators --> controller ----> service ----> database(ecomm_test_db)
+
+supertest ---> test the routes, request and response.
+cross-env ----> 
